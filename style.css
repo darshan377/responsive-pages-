@@ -1,0 +1,80 @@
+body {
+  background-color:dimgrey;
+}
+
+.card-sec {
+  /* background-color: dimgray;
+  border: 2px solid red;*/
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  opacity: 100%;
+}
+.box {
+  width: 90%;
+  height: 200px;
+  /*background-color: slategrey;*/
+  text-align: center;
+  justify-content: center;
+  padding-top: 50px;
+  border: 2px solid red;
+}
+.box-1 {
+  background-color: blue;
+}
+.box-2 {
+  background-color: chocolate;
+}
+.box-3 {
+  background-color: aquamarine;
+}
+.box-4 {
+  background-color: cadetblue;
+}
+.box-5 {
+  background-color: gold;
+}
+.box-6 {
+  background-color: deeppink;
+}
+
+@media screen and (max-width: 1000px) {
+  body {
+    background-color: chartreuse;
+  }
+  .card-sec {
+    /* background-color: dimgray;
+    border: 2px solid red;*/
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    opacity: 100%;
+  }
+  .box-1 {
+    background-color:indianred;
+  }
+  .box-2 {
+    background-color:cornflowerblue;
+  }
+  .box-3 {
+    background-color:forestgreen;
+}
+@media screen and (max-width: 500px) {
+  body {
+    background-color: crimson;
+  }
+  .card-sec {
+    /* background-color: dimgray;
+    border: 2px solid red;*/
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    opacity: 100%;
+  }
+  .box-4 {
+    background-color:crimson;
+  }
+  .box-5 {
+    background-color:salmon;
+  }
+  .box-6 {
+    background-color:yellow;
+  }
+}
